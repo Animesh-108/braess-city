@@ -1,0 +1,86 @@
+{
+ "Anaheim_flow.tntp": {
+  "folder": "Anaheim",
+  "sha256": "eecd21c2a908b6a1c6729045ea260e96df1de026f05281d341fc281f2552cebe"
+ },
+ "Anaheim_net.tntp": {
+  "folder": "Anaheim",
+  "sha256": "99933b415e9500b13907829c37a43cfa9141714fad5af279081e28e5f9356f9a"
+ },
+ "Anaheim_trips.tntp": {
+  "folder": "Anaheim",
+  "sha256": "906893854cd0db4479c0b5f07678ce5616fa8e42e2b997f918c378309c66a94e"
+ },
+ "Barcelona_flow.tntp": {
+  "folder": "Barcelona",
+  "sha256": "cee8df9f7930e52d5779aa6d3c14b25bcede54582c827971b5b5b3fe2f6aa345"
+ },
+ "Barcelona_net.tntp": {
+  "folder": "Barcelona",
+  "sha256": "74ea13010beca70c641417c38bc900d6d7a2a600f23f18f76e417f7090c69bbd"
+ },
+ "Barcelona_trips.tntp": {
+  "folder": "Barcelona",
+  "sha256": "de485bcc423ff66c8e6601ae718255614d19099c0d0536ffcdb62972e1fcbbe1"
+ },
+ "Braess_net.tntp": {
+  "folder": "Braess-Example",
+  "sha256": "4cec6e3cd603604347c4ed3deb0de815e62241147d40932e0e962fbd26d83d01"
+ },
+ "Braess_trips.tntp": {
+  "folder": "Braess-Example",
+  "sha256": "4723c01fa0ffbef3d427ba16519cabe74ece85fca67f2aa3e70446053f625423"
+ },
+ "ChicagoSketch_flow.tntp": {
+  "folder": "Chicago-Sketch",
+  "sha256": "068ee541d0e4d06e1e829bebc629ecf18c0f1eaf3b8239aff82de7ac3631370b"
+ },
+ "ChicagoSketch_net.tntp": {
+  "folder": "Chicago-Sketch",
+  "sha256": "4396bff6101cb5ad3edaf0eb5b9aec051055cb7f0d85be907d24b43f98bf0027"
+ },
+ "ChicagoSketch_node.tntp": {
+  "folder": "Chicago-Sketch",
+  "sha256": "21e7f3a0f033ad731ba9e7424607fcddea105c0fb3571410307839d3972393f1"
+ },
+ "ChicagoSketch_trips.tntp": {
+  "folder": "Chicago-Sketch",
+  "sha256": "efe68abffc4af09e344cf1e175cfc048c08f4cd8f1f5454f74371b40e8245edc"
+ },
+ "EMA_net.tntp": {
+  "folder": "Eastern-Massachusetts",
+  "sha256": "c806a95307029e8f1a4415e5ac24bff392a3fb720e17ac56b960f0c2028c28ae"
+ },
+ "EMA_trips.tntp": {
+  "folder": "Eastern-Massachusetts",
+  "sha256": "004570cf4d191ca1cec21aae0ee304720083617475d6cef91856c3ee483037dd"
+ },
+ "SiouxFalls_flow.tntp": {
+  "folder": "SiouxFalls",
+  "sha256": "5d0b83a22ecc3ce79dabb2b2972162b78c5eda571dcb5b3687429d8397654fee"
+ },
+ "SiouxFalls_net.tntp": {
+  "folder": "SiouxFalls",
+  "sha256": "ace99b24cec69c273ff0cf3d6d074110177f0cc0ae24b0c7a9f4f4cb5e27635c"
+ },
+ "SiouxFalls_node.tntp": {
+  "folder": "SiouxFalls",
+  "sha256": "91c0b954dcfc6f6f08f48de1ce9d245261f5188a33aef76acf3ce1fff0809969"
+ },
+ "SiouxFalls_trips.tntp": {
+  "folder": "SiouxFalls",
+  "sha256": "56f9566857f3f66730fd5c4232258d7ee3ac2931a476526331afd062f4958de7"
+ },
+ "Winnipeg_flow.tntp": {
+  "folder": "Winnipeg",
+  "sha256": "6656dd38647f00879c31eeda533df8f34007e82cbbec03421457dfde2bae81a5"
+ },
+ "Winnipeg_net.tntp": {
+  "folder": "Winnipeg",
+  "sha256": "b7958f3a25f3d80890b2a4d5c534dc0820d1b4c8e8debb8ddbb5f9eb6f0fb593"
+ },
+ "Winnipeg_trips.tntp": {
+  "folder": "Winnipeg",
+  "sha256": "b5b8b08ca486b6213227401695fd8066db98821696513d512ddc4d9220d7397b"
+ }
+}

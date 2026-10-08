@@ -1,0 +1,25 @@
+Anaheim [twoway]: base total 1,419,907.9 (gap 9.9e-08); at gap 8.9e-10: 1,419,913.8; solver noise ~4.1e-06
+568 roads to test
+  100/568
+  200/568
+  300/568
+  400/568
+  500/568
+verify 21 candidates at gap 1e-09
+
+Anaheim [twoway]: 542 closures solved, 26 essential
+closing makes the city FASTER (verified, > 1e-04): 21 (screened 21, 0 failed verification)
+      71<->255  flow     2420  total time -0.2100%
+     193<->271  flow     2664  total time -0.1450%
+     200<->335  flow      909  total time -0.1059%
+     204<->376  flow     1674  total time -0.0642%
+     201<->335  flow      837  total time -0.0555%
+     199<->306  flow      245  total time -0.0446%
+     376<->377  flow     1915  total time -0.0432%
+      59<->103  flow      680  total time -0.0427%
+      85<->190  flow      570  total time -0.0400%
+      60<->102  flow      985  total time -0.0367%
+     239<->299  flow      715  total time -0.0291%
+     203<->359  flow      453  total time -0.0287%
+biggest damage when closed: 90<->91 +21.87%, 91<->92 +21.87%, 89<->90 +21.33%
+time 517s -> scan_Anaheim_twoway.json

@@ -1,0 +1,1562 @@
+{
+ "net": "EMA",
+ "mode": "twoway",
+ "gap": 1e-06,
+ "verify": 1e-07,
+ "threshold": 0.0001,
+ "base_tstt": 28181.492492889214,
+ "base_tstt_verified": 28181.475635656607,
+ "seconds": 4.077115774154663,
+ "results": [
+  {
+   "road": "1<->3",
+   "links": [
+    0,
+    1
+   ],
+   "base_flow": 843.1621020000002,
+   "essential": false,
+   "change": 0.009073796078902486,
+   "gap": 7.906714154157254e-07,
+   "iters": 99
+  },
+  {
+   "road": "1<->7",
+   "links": [
+    2,
+    3
+   ],
+   "base_flow": 1954.681018,
+   "essential": false,
+   "change": 0.019259447910122313,
+   "gap": 8.78490321837348e-07,
+   "iters": 139
+  },
+  {
+   "road": "1<->9",
+   "links": [
+    4,
+    5
+   ],
+   "base_flow": 0.0,
+   "essential": false,
+   "change": 0.0,
+   "gap": 9.121269285347553e-07,
+   "iters": 96
+  },
+  {
+   "road": "2<->3",
+   "links": [
+    6,
+    7
+   ],
+   "base_flow": 2365.03271,
+   "essential": true,
+   "change": null,
+   "gap": Infinity,
+   "iters": 0
+  },
+  {
+   "road": "3<->6",
+   "links": [
+    8,
+    9
+   ],
+   "base_flow": 3012.443937344625,
+   "essential": false,
+   "change": 0.06192239579562426,
+   "gap": 7.809226030873788e-07,
+   "iters": 147
+  },
+  {
+   "road": "3<->7",
+   "links": [
+    10,
+    11
+   ],
+   "base_flow": 255.42237065537398,
+   "essential": false,
+   "change": 4.4173047798001016e-05,
+   "gap": 8.901096900269336e-07,
+   "iters": 96
+  },
+  {
+   "road": "4<->6",
+   "links": [
+    12,
+    13
+   ],
+   "base_flow": 0.0,
+   "essential": false,
+   "change": 0.0,
+   "gap": 9.121269285347553e-07,
+   "iters": 96
+  },
+  {
+   "road": "4<->8",
+   "links": [
+    14,
+    15
+   ],
+   "base_flow": 0.0,
+   "essential": false,
+   "change": 0.0,
+   "gap": 9.121269285347553e-07,
+   "iters": 96
+  },
+  {
+   "road": "5<->10",
+   "links": [
+    16,
+    17
+   ],
+   "base_flow": 0.0,
+   "essential": false,
+   "change": 0.0,
+   "gap": 9.121269285347553e-07,
+   "iters": 96
+  },
+  {
+   "road": "5<->11",
+   "links": [
+    18,
+    19
+   ],
+   "base_flow": 0.0,
+   "essential": false,
+   "change": 0.0,
+   "gap": 9.121269285347553e-07,
+   "iters": 96
+  },
+  {
+   "road": "6<->8",
+   "links": [
+    20,
+    21
+   ],
+   "base_flow": 5246.265093000001,
+   "essential": false,
+   "change": 0.03372663824829091,
+   "gap": 8.888795793117964e-07,
+   "iters": 85
+  },
+  {
+   "road": "6<->13",
+   "links": [
+    22,
+    23
+   ],
+   "base_flow": 1082.6025283446256,
+   "essential": false,
+   "change": 0.003741822981838554,
+   "gap": 9.015700907217608e-07,
+   "iters": 99
+  },
+  {
+   "road": "6<->17",
+   "links": [
+    24,
+    25
+   ],
+   "base_flow": 0.0,
+   "essential": false,
+   "change": 0.0,
+   "gap": 9.121269285347553e-07,
+   "iters": 96
+  },
+  {
+   "road": "7<->9",
+   "links": [
+    26,
+    27
+   ],
+   "base_flow": 290.67827765537413,
+   "essential": false,
+   "change": 0.00011310602878878959,
+   "gap": 8.900483390517564e-07,
+   "iters": 96
+  },
+  {
+   "road": "7<->13",
+   "links": [
+    28,
+    29
+   ],
+   "base_flow": 276.167693,
+   "essential": false,
+   "change": 0.00021099340187054287,
+   "gap": 7.571158225763005e-07,
+   "iters": 155
+  },
+  {
+   "road": "8<->11",
+   "links": [
+    30,
+    31
+   ],
+   "base_flow": 3080.874829,
+   "essential": false,
+   "change": 0.027568977729121386,
+   "gap": 9.99157891713337e-07,
+   "iters": 193
+  },
+  {
+   "road": "8<->16",
+   "links": [
+    32,
+    33
+   ],
+   "base_flow": 2165.3902639999997,
+   "essential": false,
+   "change": 0.009491908213839231,
+   "gap": 8.657593070126232e-07,
+   "iters": 75
+  },
+  {
+   "road": "9<->12",
+   "links": [
+    34,
+    35
+   ],
+   "base_flow": 873.623381,
+   "essential": true,
+   "change": null,
+   "gap": Infinity,
+   "iters": 0
+  },
+  {
+   "road": "9<->13",
+   "links": [
+    36,
+    37
+   ],
+   "base_flow": 582.945103344626,
+   "essential": false,
+   "change": 0.0027358458565745285,
+   "gap": 8.876764824370262e-07,
+   "iters": 96
+  },
+  {
+   "road": "10<->11",
+   "links": [
+    38,
+    39
+   ],
+   "base_flow": 3080.874829,
+   "essential": false,
+   "change": 0.027568977729121386,
+   "gap": 9.99157891713337e-07,
+   "iters": 193
+  },
+  {
+   "road": "10<->18",
+   "links": [
+    40,
+    41
+   ],
+   "base_flow": 2017.1354339999993,
+   "essential": false,
+   "change": 0.005366295792272465,
+   "gap": 8.765721996777663e-07,
+   "iters": 351
+  },
+  {
+   "road": "10<->20",
+   "links": [
+    42,
+    43
+   ],
+   "base_flow": 1349.3077549999998,
+   "essential": false,
+   "change": 0.009309477910559293,
+   "gap": 7.645791257307974e-07,
+   "iters": 166
+  },
+  {
+   "road": "11<->19",
+   "links": [
+    44,
+    45
+   ],
+   "base_flow": 0.0,
+   "essential": false,
+   "change": 0.0,
+   "gap": 9.121269285347553e-07,
+   "iters": 96
+  },
+  {
+   "road": "13<->14",
+   "links": [
+    46,
+    47
+   ],
+   "base_flow": 868.1044519999998,
+   "essential": false,
+   "change": 0.005771035392156404,
+   "gap": 9.577886953934533e-07,
+   "iters": 147
+  },
+  {
+   "road": "13<->15",
+   "links": [
+    48,
+    49
+   ],
+   "base_flow": 0.0,
+   "essential": false,
+   "change": 0.0,
+   "gap": 9.121269285347553e-07,
+   "iters": 96
+  },
+  {
+   "road": "14<->17",
+   "links": [
+    50,
+    51
+   ],
+   "base_flow": 434.98030099999994,
+   "essential": false,
+   "change": 0.0011497146598086836,
+   "gap": 7.369928252543167e-07,
+   "iters": 113
+  },
+  {
+   "road": "14<->22",
+   "links": [
+    52,
+    53
+   ],
+   "base_flow": 1524.7183349999998,
+   "essential": false,
+   "change": 0.001357748007893199,
+   "gap": 9.639098866044843e-07,
+   "iters": 141
+  },
+  {
+   "road": "16<->17",
+   "links": [
+    54,
+    55
+   ],
+   "base_flow": 1906.856355,
+   "essential": false,
+   "change": 0.00788770273729571,
+   "gap": 8.274532039312326e-07,
+   "iters": 176
+  },
+  {
+   "road": "16<->19",
+   "links": [
+    56,
+    57
+   ],
+   "base_flow": 1187.915838,
+   "essential": false,
+   "change": 0.001095523657242527,
+   "gap": 8.774649439545283e-07,
+   "iters": 82
+  },
+  {
+   "road": "16<->22",
+   "links": [
+    58,
+    59
+   ],
+   "base_flow": 3503.724749,
+   "essential": false,
+   "change": 0.007942087707091433,
+   "gap": 7.799464244140946e-07,
+   "iters": 75
+  },
+  {
+   "road": "17<->22",
+   "links": [
+    60,
+    61
+   ],
+   "base_flow": 0.0,
+   "essential": false,
+   "change": 0.0,
+   "gap": 9.121269285347553e-07,
+   "iters": 96
+  },
+  {
+   "road": "18<->19",
+   "links": [
+    62,
+    63
+   ],
+   "base_flow": 1187.915838,
+   "essential": false,
+   "change": 0.001095523657242527,
+   "gap": 8.774649439545283e-07,
+   "iters": 82
+  },
+  {
+   "road": "18<->21",
+   "links": [
+    64,
+    65
+   ],
+   "base_flow": 996.4439659999998,
+   "essential": false,
+   "change": 0.0066959874865275245,
+   "gap": 7.180812387874701e-07,
+   "iters": 98
+  },
+  {
+   "road": "19<->22",
+   "links": [
+    66,
+    67
+   ],
+   "base_flow": 0.0,
+   "essential": false,
+   "change": 0.0,
+   "gap": 9.121269285347553e-07,
+   "iters": 96
+  },
+  {
+   "road": "20<->21",
+   "links": [
+    68,
+    69
+   ],
+   "base_flow": 2739.3353640268324,
+   "essential": false,
+   "change": 0.020122295153425493,
+   "gap": 8.137922690438062e-07,
+   "iters": 194
+  },
+  {
+   "road": "20<->30",
+   "links": [
+    70,
+    71
+   ],
+   "base_flow": 1805.4727200776274,
+   "essential": false,
+   "change": 0.017250929722257956,
+   "gap": 8.429612890444639e-07,
+   "iters": 115
+  },
+  {
+   "road": "20<->58",
+   "links": [
+    72,
+    73
+   ],
+   "base_flow": 2093.7060379492054,
+   "essential": false,
+   "change": 0.028658519290659667,
+   "gap": 8.150729184305783e-07,
+   "iters": 93
+  },
+  {
+   "road": "21<->22",
+   "links": [
+    74,
+    75
+   ],
+   "base_flow": 3993.837881,
+   "essential": false,
+   "change": 0.008132653800185654,
+   "gap": 9.220938670853299e-07,
+   "iters": 222
+  },
+  {
+   "road": "21<->23",
+   "links": [
+    76,
+    77
+   ],
+   "base_flow": 2994.507422026835,
+   "essential": false,
+   "change": 0.01959659262145695,
+   "gap": 9.351645198529555e-07,
+   "iters": 51
+  },
+  {
+   "road": "22<->23",
+   "links": [
+    78,
+    79
+   ],
+   "base_flow": 0.0,
+   "essential": false,
+   "change": 0.0,
+   "gap": 9.121269285347553e-07,
+   "iters": 96
+  },
+  {
+   "road": "22<->25",
+   "links": [
+    80,
+    81
+   ],
+   "base_flow": 0.0,
+   "essential": false,
+   "change": 0.0,
+   "gap": 9.121269285347553e-07,
+   "iters": 96
+  },
+  {
+   "road": "22<->28",
+   "links": [
+    82,
+    83
+   ],
+   "base_flow": 0.0,
+   "essential": false,
+   "change": 0.0,
+   "gap": 9.121269285347553e-07,
+   "iters": 96
+  },
+  {
+   "road": "22<->29",
+   "links": [
+    84,
+    85
+   ],
+   "base_flow": 4046.308128000001,
+   "essential": false,
+   "change": 0.036556184431750856,
+   "gap": 9.085438359803131e-07,
+   "iters": 181
+  },
+  {
+   "road": "22<->40",
+   "links": [
+    86,
+    87
+   ],
+   "base_flow": 0.0,
+   "essential": false,
+   "change": 0.0,
+   "gap": 9.121269285347553e-07,
+   "iters": 96
+  },
+  {
+   "road": "23<->24",
+   "links": [
+    88,
+    89
+   ],
+   "base_flow": 5645.506345949206,
+   "essential": false,
+   "change": 0.03134727926497413,
+   "gap": 8.352115662153725e-07,
+   "iters": 128
+  },
+  {
+   "road": "23<->31",
+   "links": [
+    90,
+    91
+   ],
+   "base_flow": 871.3977729223719,
+   "essential": false,
+   "change": 0.007677386442388309,
+   "gap": 8.520478841584283e-07,
+   "iters": 212
+  },
+  {
+   "road": "24<->25",
+   "links": [
+    92,
+    93
+   ],
+   "base_flow": 4870.528821,
+   "essential": false,
+   "change": 0.011620483989845607,
+   "gap": 9.97894310045365e-07,
+   "iters": 250
+  },
+  {
+   "road": "24<->26",
+   "links": [
+    94,
+    95
+   ],
+   "base_flow": 5875.17484401177,
+   "essential": false,
+   "change": 0.006820192359561174,
+   "gap": 9.600136495679167e-07,
+   "iters": 212
+  },
+  {
+   "road": "24<->33",
+   "links": [
+    96,
+    97
+   ],
+   "base_flow": 12147.95427806257,
+   "essential": false,
+   "change": 0.12346048887885872,
+   "gap": 7.46887659255351e-07,
+   "iters": 1716
+  },
+  {
+   "road": "25<->26",
+   "links": [
+    98,
+    99
+   ],
+   "base_flow": 0.0,
+   "essential": false,
+   "change": 0.0,
+   "gap": 9.121269285347553e-07,
+   "iters": 96
+  },
+  {
+   "road": "26<->27",
+   "links": [
+    100,
+    101
+   ],
+   "base_flow": 1289.3661493184218,
+   "essential": false,
+   "change": 0.001040175090532724,
+   "gap": 9.790764463970155e-07,
+   "iters": 111
+  },
+  {
+   "road": "26<->28",
+   "links": [
+    102,
+    103
+   ],
+   "base_flow": 5845.329397669805,
+   "essential": false,
+   "change": 0.047169901697349706,
+   "gap": 4.6714885350017234e-07,
+   "iters": 218
+  },
+  {
+   "road": "27<->28",
+   "links": [
+    104,
+    105
+   ],
+   "base_flow": 568.2820526698067,
+   "essential": false,
+   "change": 0.006482749917459753,
+   "gap": 6.08395349950462e-07,
+   "iters": 540
+  },
+  {
+   "road": "27<->33",
+   "links": [
+    106,
+    107
+   ],
+   "base_flow": 1857.6482019882274,
+   "essential": false,
+   "change": 0.02472006586417074,
+   "gap": 9.993907062127434e-07,
+   "iters": 120
+  },
+  {
+   "road": "27<->35",
+   "links": [
+    108,
+    109
+   ],
+   "base_flow": 0.0,
+   "essential": false,
+   "change": 0.0,
+   "gap": 9.121269285347553e-07,
+   "iters": 96
+  },
+  {
+   "road": "28<->37",
+   "links": [
+    110,
+    111
+   ],
+   "base_flow": 5277.047344999999,
+   "essential": false,
+   "change": 0.06673310323271486,
+   "gap": 8.665282114000257e-07,
+   "iters": 223
+  },
+  {
+   "road": "29<->41",
+   "links": [
+    112,
+    113
+   ],
+   "base_flow": 4983.866495,
+   "essential": false,
+   "change": 0.04173891034909502,
+   "gap": 9.111710304922194e-07,
+   "iters": 160
+  },
+  {
+   "road": "29<->49",
+   "links": [
+    114,
+    115
+   ],
+   "base_flow": 0.0,
+   "essential": false,
+   "change": 0.0,
+   "gap": 9.121269285347553e-07,
+   "iters": 96
+  },
+  {
+   "road": "30<->31",
+   "links": [
+    116,
+    117
+   ],
+   "base_flow": 4087.943510922372,
+   "essential": false,
+   "change": 0.005019877016815955,
+   "gap": 9.462504885739588e-07,
+   "iters": 356
+  },
+  {
+   "road": "30<->60",
+   "links": [
+    118,
+    119
+   ],
+   "base_flow": 1959.2085000000002,
+   "essential": false,
+   "change": 0.003958732257795527,
+   "gap": 7.89513595279989e-07,
+   "iters": 163
+  },
+  {
+   "road": "31<->32",
+   "links": [
+    120,
+    121
+   ],
+   "base_flow": 6298.675441000001,
+   "essential": false,
+   "change": 0.02632576100076666,
+   "gap": 7.91853640711628e-07,
+   "iters": 287
+  },
+  {
+   "road": "31<->60",
+   "links": [
+    122,
+    123
+   ],
+   "base_flow": 0.0,
+   "essential": false,
+   "change": 0.0,
+   "gap": 9.121269285347553e-07,
+   "iters": 96
+  },
+  {
+   "road": "32<->33",
+   "links": [
+    124,
+    125
+   ],
+   "base_flow": 3920.471467332734,
+   "essential": false,
+   "change": 0.025486164565729108,
+   "gap": 6.46201137060957e-07,
+   "iters": 74
+  },
+  {
+   "road": "32<->34",
+   "links": [
+    126,
+    127
+   ],
+   "base_flow": 8958.180214051255,
+   "essential": false,
+   "change": 0.04459302383389216,
+   "gap": 8.413295780822174e-07,
+   "iters": 428
+  },
+  {
+   "road": "32<->60",
+   "links": [
+    128,
+    129
+   ],
+   "base_flow": 3476.0876013839925,
+   "essential": false,
+   "change": -0.004852551776565308,
+   "gap": 5.440371073308984e-07,
+   "iters": 145,
+   "verified_change": -0.004848791899762586,
+   "verified_gap": 7.831796139063637e-08
+  },
+  {
+   "road": "33<->34",
+   "links": [
+    130,
+    131
+   ],
+   "base_flow": 8697.249825718061,
+   "essential": false,
+   "change": 0.06536098545714727,
+   "gap": 9.885593748488557e-07,
+   "iters": 184
+  },
+  {
+   "road": "34<->35",
+   "links": [
+    132,
+    133
+   ],
+   "base_flow": 4762.19801,
+   "essential": false,
+   "change": 0.05817865316469411,
+   "gap": 9.925583422467868e-07,
+   "iters": 172
+  },
+  {
+   "road": "34<->60",
+   "links": [
+    134,
+    135
+   ],
+   "base_flow": 2768.0476196668046,
+   "essential": false,
+   "change": 0.015427327505356084,
+   "gap": 6.388622903159907e-07,
+   "iters": 131
+  },
+  {
+   "road": "35<->36",
+   "links": [
+    136,
+    137
+   ],
+   "base_flow": 4080.018102,
+   "essential": false,
+   "change": 0.0778770853507526,
+   "gap": 9.46338632780472e-07,
+   "iters": 96
+  },
+  {
+   "road": "35<->71",
+   "links": [
+    138,
+    139
+   ],
+   "base_flow": 0.0,
+   "essential": false,
+   "change": 0.0,
+   "gap": 9.121269285347553e-07,
+   "iters": 96
+  },
+  {
+   "road": "36<->43",
+   "links": [
+    140,
+    141
+   ],
+   "base_flow": 0.0,
+   "essential": false,
+   "change": 0.0,
+   "gap": 9.121269285347553e-07,
+   "iters": 96
+  },
+  {
+   "road": "36<->44",
+   "links": [
+    142,
+    143
+   ],
+   "base_flow": 5710.05054,
+   "essential": false,
+   "change": 0.09820397136511472,
+   "gap": 8.193630559823944e-07,
+   "iters": 1129
+  },
+  {
+   "road": "36<->71",
+   "links": [
+    144,
+    145
+   ],
+   "base_flow": 1186.8505989999999,
+   "essential": false,
+   "change": 0.0005989396791141122,
+   "gap": 8.702503455867777e-07,
+   "iters": 128
+  },
+  {
+   "road": "37<->38",
+   "links": [
+    146,
+    147
+   ],
+   "base_flow": 6255.003762,
+   "essential": false,
+   "change": 0.02585056426495795,
+   "gap": 9.736039868538723e-07,
+   "iters": 187
+  },
+  {
+   "road": "37<->42",
+   "links": [
+    148,
+    149
+   ],
+   "base_flow": 0.0,
+   "essential": false,
+   "change": 0.0,
+   "gap": 9.121269285347553e-07,
+   "iters": 96
+  },
+  {
+   "road": "38<->39",
+   "links": [
+    150,
+    151
+   ],
+   "base_flow": 5510.392183,
+   "essential": false,
+   "change": 0.0323679117815872,
+   "gap": 7.980792946977188e-07,
+   "iters": 91
+  },
+  {
+   "road": "38<->42",
+   "links": [
+    152,
+    153
+   ],
+   "base_flow": 3666.3784539999997,
+   "essential": false,
+   "change": 0.014652602855546978,
+   "gap": 8.621388130506483e-07,
+   "iters": 134
+  },
+  {
+   "road": "39<->40",
+   "links": [
+    154,
+    155
+   ],
+   "base_flow": 4361.439802,
+   "essential": false,
+   "change": 0.036426441451411815,
+   "gap": 9.150245547804377e-07,
+   "iters": 215
+  },
+  {
+   "road": "39<->48",
+   "links": [
+    156,
+    157
+   ],
+   "base_flow": 3756.7078219999994,
+   "essential": false,
+   "change": 0.01662528248862331,
+   "gap": 8.826763265955626e-07,
+   "iters": 113
+  },
+  {
+   "road": "40<->41",
+   "links": [
+    158,
+    159
+   ],
+   "base_flow": 4983.866495,
+   "essential": false,
+   "change": 0.039273587125162976,
+   "gap": 9.731593329720191e-07,
+   "iters": 341
+  },
+  {
+   "road": "40<->48",
+   "links": [
+    160,
+    161
+   ],
+   "base_flow": 0.0,
+   "essential": false,
+   "change": 0.0,
+   "gap": 9.121269285347553e-07,
+   "iters": 96
+  },
+  {
+   "road": "41<->49",
+   "links": [
+    162,
+    163
+   ],
+   "base_flow": 0.0,
+   "essential": false,
+   "change": 0.0,
+   "gap": 9.121269285347553e-07,
+   "iters": 96
+  },
+  {
+   "road": "42<->43",
+   "links": [
+    164,
+    165
+   ],
+   "base_flow": 551.197339,
+   "essential": false,
+   "change": 0.0001328445941595869,
+   "gap": 8.94660133133492e-07,
+   "iters": 139
+  },
+  {
+   "road": "42<->45",
+   "links": [
+    166,
+    167
+   ],
+   "base_flow": 1446.1554840000001,
+   "essential": false,
+   "change": 0.00555716964646629,
+   "gap": 3.6620924543819355e-07,
+   "iters": 128
+  },
+  {
+   "road": "43<->44",
+   "links": [
+    168,
+    169
+   ],
+   "base_flow": 1868.109671,
+   "essential": false,
+   "change": 0.0018826865765243284,
+   "gap": 5.120661778838752e-07,
+   "iters": 136
+  },
+  {
+   "road": "43<->45",
+   "links": [
+    170,
+    171
+   ],
+   "base_flow": 0.0,
+   "essential": false,
+   "change": 0.0,
+   "gap": 9.121269285347553e-07,
+   "iters": 96
+  },
+  {
+   "road": "44<->46",
+   "links": [
+    172,
+    173
+   ],
+   "base_flow": 4965.7488650000005,
+   "essential": false,
+   "change": 0.02219651532822502,
+   "gap": 9.25307601736373e-07,
+   "iters": 222
+  },
+  {
+   "road": "44<->54",
+   "links": [
+    174,
+    175
+   ],
+   "base_flow": 0.0,
+   "essential": false,
+   "change": 0.0,
+   "gap": 9.121269285347553e-07,
+   "iters": 96
+  },
+  {
+   "road": "45<->46",
+   "links": [
+    176,
+    177
+   ],
+   "base_flow": 2763.0678159999998,
+   "essential": false,
+   "change": 0.006466253777974777,
+   "gap": 9.321572598988225e-07,
+   "iters": 111
+  },
+  {
+   "road": "45<->47",
+   "links": [
+    178,
+    179
+   ],
+   "base_flow": 0.0,
+   "essential": false,
+   "change": 0.0,
+   "gap": 9.121269285347553e-07,
+   "iters": 96
+  },
+  {
+   "road": "46<->47",
+   "links": [
+    180,
+    181
+   ],
+   "base_flow": 3033.168604000001,
+   "essential": false,
+   "change": 0.004728471491043646,
+   "gap": 9.75421569988523e-07,
+   "iters": 135
+  },
+  {
+   "road": "46<->54",
+   "links": [
+    182,
+    183
+   ],
+   "base_flow": 3185.6314089999987,
+   "essential": false,
+   "change": 0.013774451250558787,
+   "gap": 8.669428348836583e-07,
+   "iters": 132
+  },
+  {
+   "road": "47<->48",
+   "links": [
+    184,
+    185
+   ],
+   "base_flow": 0.0,
+   "essential": false,
+   "change": 0.0,
+   "gap": 9.121269285347553e-07,
+   "iters": 96
+  },
+  {
+   "road": "47<->74",
+   "links": [
+    186,
+    187
+   ],
+   "base_flow": 3033.168604000001,
+   "essential": false,
+   "change": 0.015027100302804033,
+   "gap": 6.957647558379125e-07,
+   "iters": 130
+  },
+  {
+   "road": "48<->49",
+   "links": [
+    188,
+    189
+   ],
+   "base_flow": 1233.546906,
+   "essential": false,
+   "change": 0.008699168579517842,
+   "gap": 6.500706179028577e-07,
+   "iters": 217
+  },
+  {
+   "road": "48<->51",
+   "links": [
+    190,
+    191
+   ],
+   "base_flow": 0.0,
+   "essential": false,
+   "change": 0.0,
+   "gap": 9.121269285347553e-07,
+   "iters": 96
+  },
+  {
+   "road": "48<->52",
+   "links": [
+    192,
+    193
+   ],
+   "base_flow": 2226.789133,
+   "essential": false,
+   "change": 0.008125444567484718,
+   "gap": 9.84396598299247e-07,
+   "iters": 129
+  },
+  {
+   "road": "48<->53",
+   "links": [
+    194,
+    195
+   ],
+   "base_flow": 1122.305872,
+   "essential": false,
+   "change": 0.0029889317936562447,
+   "gap": 8.691493659424481e-07,
+   "iters": 114
+  },
+  {
+   "road": "48<->54",
+   "links": [
+    196,
+    197
+   ],
+   "base_flow": 766.69802,
+   "essential": false,
+   "change": 0.000799634960067896,
+   "gap": 8.27239855784759e-07,
+   "iters": 130
+  },
+  {
+   "road": "48<->74",
+   "links": [
+    198,
+    199
+   ],
+   "base_flow": 3033.168604000001,
+   "essential": false,
+   "change": 0.015027100302804033,
+   "gap": 6.957647558379125e-07,
+   "iters": 130
+  },
+  {
+   "road": "49<->50",
+   "links": [
+    200,
+    201
+   ],
+   "base_flow": 968.3394089999999,
+   "essential": false,
+   "change": 0.009308985772499001,
+   "gap": 9.037142739939337e-07,
+   "iters": 96
+  },
+  {
+   "road": "49<->73",
+   "links": [
+    202,
+    203
+   ],
+   "base_flow": 0.0,
+   "essential": false,
+   "change": 0.0,
+   "gap": 9.121269285347553e-07,
+   "iters": 96
+  },
+  {
+   "road": "50<->51",
+   "links": [
+    204,
+    205
+   ],
+   "base_flow": 676.9139299999999,
+   "essential": false,
+   "change": 0.004663824441013031,
+   "gap": 9.382767984267573e-07,
+   "iters": 143
+  },
+  {
+   "road": "50<->73",
+   "links": [
+    206,
+    207
+   ],
+   "base_flow": 0.0,
+   "essential": false,
+   "change": 0.0,
+   "gap": 9.121269285347553e-07,
+   "iters": 96
+  },
+  {
+   "road": "51<->52",
+   "links": [
+    208,
+    209
+   ],
+   "base_flow": 2054.559521,
+   "essential": false,
+   "change": 0.020844246931112056,
+   "gap": 8.93425785919884e-07,
+   "iters": 96
+  },
+  {
+   "road": "52<->53",
+   "links": [
+    210,
+    211
+   ],
+   "base_flow": 688.84296,
+   "essential": false,
+   "change": 0.007335360924127317,
+   "gap": 9.053418553187722e-07,
+   "iters": 96
+  },
+  {
+   "road": "53<->54",
+   "links": [
+    212,
+    213
+   ],
+   "base_flow": 412.6021669999999,
+   "essential": false,
+   "change": 0.0027414880782077717,
+   "gap": 8.630133024728556e-07,
+   "iters": 111
+  },
+  {
+   "road": "55<->57",
+   "links": [
+    214,
+    215
+   ],
+   "base_flow": 283.11204599999996,
+   "essential": true,
+   "change": null,
+   "gap": Infinity,
+   "iters": 0
+  },
+  {
+   "road": "56<->57",
+   "links": [
+    216,
+    217
+   ],
+   "base_flow": 283.11204599999996,
+   "essential": true,
+   "change": null,
+   "gap": Infinity,
+   "iters": 0
+  },
+  {
+   "road": "57<->58",
+   "links": [
+    218,
+    219
+   ],
+   "base_flow": 1224.905844,
+   "essential": false,
+   "change": 0.01196307906264194,
+   "gap": 7.997469148684471e-07,
+   "iters": 153
+  },
+  {
+   "road": "57<->59",
+   "links": [
+    220,
+    221
+   ],
+   "base_flow": 1109.4774040000002,
+   "essential": false,
+   "change": 0.002220581266071592,
+   "gap": 8.241494112422968e-07,
+   "iters": 294
+  },
+  {
+   "road": "58<->59",
+   "links": [
+    222,
+    223
+   ],
+   "base_flow": 1111.0908139492062,
+   "essential": false,
+   "change": 0.009074480153339882,
+   "gap": 9.872705246837098e-07,
+   "iters": 122
+  },
+  {
+   "road": "59<->60",
+   "links": [
+    224,
+    225
+   ],
+   "base_flow": 4080.6493430507935,
+   "essential": false,
+   "change": 0.010321393283550563,
+   "gap": 9.909048096864326e-07,
+   "iters": 118
+  },
+  {
+   "road": "59<->72",
+   "links": [
+    226,
+    227
+   ],
+   "base_flow": 0.0,
+   "essential": false,
+   "change": -4.825108470237942e-06,
+   "gap": 9.169641609091266e-07,
+   "iters": 116
+  },
+  {
+   "road": "60<->61",
+   "links": [
+    228,
+    229
+   ],
+   "base_flow": 954.8839389999999,
+   "essential": true,
+   "change": null,
+   "gap": Infinity,
+   "iters": 0
+  },
+  {
+   "road": "60<->63",
+   "links": [
+    230,
+    231
+   ],
+   "base_flow": 3533.3019200000003,
+   "essential": false,
+   "change": 0.01579033743521433,
+   "gap": 8.979480263288294e-07,
+   "iters": 96
+  },
+  {
+   "road": "60<->65",
+   "links": [
+    232,
+    233
+   ],
+   "base_flow": 0.0,
+   "essential": false,
+   "change": 0.0,
+   "gap": 9.121269285347553e-07,
+   "iters": 96
+  },
+  {
+   "road": "60<->67",
+   "links": [
+    234,
+    235
+   ],
+   "base_flow": 954.4278029999998,
+   "essential": false,
+   "change": 0.01154321908384276,
+   "gap": 9.65633416056009e-07,
+   "iters": 171
+  },
+  {
+   "road": "60<->69",
+   "links": [
+    236,
+    237
+   ],
+   "base_flow": 1622.208207,
+   "essential": false,
+   "change": 0.012717372669177305,
+   "gap": 5.23953981394307e-07,
+   "iters": 193
+  },
+  {
+   "road": "60<->71",
+   "links": [
+    238,
+    239
+   ],
+   "base_flow": 0.0,
+   "essential": false,
+   "change": 0.0,
+   "gap": 9.121269285347553e-07,
+   "iters": 96
+  },
+  {
+   "road": "60<->72",
+   "links": [
+    240,
+    241
+   ],
+   "base_flow": 0.0,
+   "essential": false,
+   "change": -4.825108470237942e-06,
+   "gap": 9.169641609091266e-07,
+   "iters": 116
+  },
+  {
+   "road": "62<->63",
+   "links": [
+    242,
+    243
+   ],
+   "base_flow": 706.660384,
+   "essential": true,
+   "change": null,
+   "gap": Infinity,
+   "iters": 0
+  },
+  {
+   "road": "63<->65",
+   "links": [
+    244,
+    245
+   ],
+   "base_flow": 2119.9811520000003,
+   "essential": false,
+   "change": 0.002711236991043876,
+   "gap": 9.096606227468857e-07,
+   "iters": 96
+  },
+  {
+   "road": "64<->65",
+   "links": [
+    246,
+    247
+   ],
+   "base_flow": 706.660384,
+   "essential": true,
+   "change": null,
+   "gap": Infinity,
+   "iters": 0
+  },
+  {
+   "road": "65<->66",
+   "links": [
+    248,
+    249
+   ],
+   "base_flow": 706.660384,
+   "essential": true,
+   "change": null,
+   "gap": Infinity,
+   "iters": 0
+  },
+  {
+   "road": "67<->68",
+   "links": [
+    250,
+    251
+   ],
+   "base_flow": 0.0,
+   "essential": false,
+   "change": 0.0,
+   "gap": 9.121269285347553e-07,
+   "iters": 96
+  },
+  {
+   "road": "67<->69",
+   "links": [
+    252,
+    253
+   ],
+   "base_flow": 504.633539,
+   "essential": false,
+   "change": 0.0007228061092218425,
+   "gap": 9.114681147167145e-07,
+   "iters": 96
+  },
+  {
+   "road": "69<->70",
+   "links": [
+    254,
+    255
+   ],
+   "base_flow": 0.0,
+   "essential": false,
+   "change": 0.0,
+   "gap": 9.121269285347553e-07,
+   "iters": 96
+  },
+  {
+   "road": "69<->71",
+   "links": [
+    256,
+    257
+   ],
+   "base_flow": 1186.8505989999999,
+   "essential": false,
+   "change": 0.007134502884147868,
+   "gap": 7.672542826218957e-07,
+   "iters": 178
+  }
+ ]
+}

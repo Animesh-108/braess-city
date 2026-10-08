@@ -1,0 +1,122 @@
+[
+ {
+  "city": "Anaheim",
+  "net": "Anaheim",
+  "tested": 542,
+  "essential": 26,
+  "harmful_segments": 21,
+  "harmful_corridors": 20,
+  "corridors_tested": 489,
+  "best": [
+   "71<->255",
+   -0.0021001409904593286
+  ],
+  "closest_below_threshold": null,
+  "worst": [
+   "90<->91",
+   0.21871548389136475
+  ],
+  "gap": 1e-07,
+  "verify": 1e-09,
+  "trips": 104694.40000000001,
+  "nodes": 416,
+  "links": 914,
+  "zones": 38
+ },
+ {
+  "city": "Barcelona",
+  "net": "Barcelona",
+  "tested": 1498,
+  "essential": 11,
+  "harmful_segments": 16,
+  "harmful_corridors": 16,
+  "corridors_tested": 1477,
+  "best": [
+   "942<->944",
+   -0.0010866613866940425
+  ],
+  "closest_below_threshold": null,
+  "worst": [
+   "250<->1009",
+   0.9970761389174193
+  ],
+  "gap": 1e-06,
+  "verify": 1e-07,
+  "trips": 184679.561,
+  "nodes": 1020,
+  "links": 2522,
+  "zones": 110
+ },
+ {
+  "city": "Eastern Massachusetts (highways)",
+  "net": "EMA",
+  "tested": 121,
+  "essential": 8,
+  "harmful_segments": 1,
+  "harmful_corridors": 1,
+  "corridors_tested": 116,
+  "best": [
+   "32<->60",
+   -0.004848791899762586
+  ],
+  "closest_below_threshold": null,
+  "worst": [
+   "24<->33",
+   0.12346048887885872
+  ],
+  "gap": 1e-06,
+  "verify": 1e-07,
+  "trips": 65576.375431,
+  "nodes": 74,
+  "links": 258,
+  "zones": 74
+ },
+ {
+  "city": "Chicago (sketch)",
+  "net": "ChicagoSketch",
+  "tested": 1076,
+  "essential": 12,
+  "harmful_segments": 1,
+  "harmful_corridors": 1,
+  "corridors_tested": 1070,
+  "best": [
+   "543<->903",
+   -0.00019852844912327653
+  ],
+  "closest_below_threshold": null,
+  "worst": [
+   "551<->563",
+   0.03802006164412074
+  ],
+  "gap": 1e-06,
+  "verify": 1e-07,
+  "trips": 1137493.44,
+  "nodes": 933,
+  "links": 2950,
+  "zones": 387
+ },
+ {
+  "city": "Winnipeg",
+  "net": "Winnipeg",
+  "tested": 1303,
+  "essential": 12,
+  "harmful_segments": 0,
+  "harmful_corridors": 0,
+  "corridors_tested": 1208,
+  "best": null,
+  "closest_below_threshold": [
+   "165<->201",
+   -8.037939895235943e-05
+  ],
+  "worst": [
+   "413<->415",
+   0.10029428581291401
+  ],
+  "gap": 1e-06,
+  "verify": 1e-07,
+  "trips": 64775.0,
+  "nodes": 1052,
+  "links": 2836,
+  "zones": 147
+ }
+]

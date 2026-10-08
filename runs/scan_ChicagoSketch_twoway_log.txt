@@ -1,0 +1,25 @@
+Starting Chicago scan at Tue Oct  6 14:14:40 BST 2026
+  File "D:\algorithm\New folder\braess_city\tools\scan.py", line 66
+    if text and not text.endswith("
+                                  ^
+SyntaxError: unterminated string literal (detected at line 66)
+Relaunch after fixing a syntax error in tools/scan.py (no solves had run): Tue Oct  6 14:15:12 BST 2026
+ChicagoSketch [twoway]: 1088 roads to test; checkpoint scan_ChicagoSketch_twoway.partial.jsonl
+  100/1090
+  200/1090
+  300/1090
+  400/1090
+  500/1090
+  600/1090
+  700/1090
+  800/1090
+  900/1090
+  1000/1090
+base total 18,370,970.1 (gap 9.9e-07); at gap 9.9e-08: 18,371,022.6; solver noise ~2.9e-06
+verify 1 candidates at gap 1e-07
+
+ChicagoSketch [twoway]: 1076 closures solved, 12 essential
+closing makes the city FASTER (verified, > 1e-04): 1 (screened 1, 0 failed verification)
+     543<->903  flow     1632  total time -0.0199%
+biggest damage when closed: 551<->563 +3.80%, 564<->565 +2.97%, 563<->564 +2.88%
+time 10678s -> scan_ChicagoSketch_twoway.json

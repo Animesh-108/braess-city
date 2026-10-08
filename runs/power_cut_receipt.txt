@@ -1,0 +1,2 @@
+﻿2026-10-06 13:11:41 | Event 41 | Microsoft-Windows-Kernel-Power | The system has rebooted without cleanly shutting down first. This error could be caused if the system stopped responding, crashed, or lost power unexpectedly.
+2026-10-06 13:11:48 | Event 6008 | EventLog | The previous system shutdown at 1:09:37 PM on 10/6/2026 was unexpected.

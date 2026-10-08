@@ -1,0 +1,22 @@
+Starting Winnipeg at Tue Oct  6 18:47:10 BST 2026
+Winnipeg [twoway]: 1315 roads to test; checkpoint scan_Winnipeg_twoway.partial.jsonl
+  100/1317
+  200/1317
+  300/1317
+  400/1317
+  500/1317
+  600/1317
+  700/1317
+  800/1317
+  900/1317
+  1000/1317
+  1100/1317
+  1200/1317
+  1300/1317
+base total 925,824.0 (gap 9.7e-07); at gap 9.8e-08: 925,827.7; solver noise ~4.1e-06
+verify 0 candidates at gap 1e-07
+
+Winnipeg [twoway]: 1303 closures solved, 12 essential
+closing makes the city FASTER (verified, > 1e-04): 0 (screened 0, 0 failed verification)
+biggest damage when closed: 413<->415 +10.03%, 776<->778 +7.73%, 769<->770 +7.19%
+time 6042s -> scan_Winnipeg_twoway.json

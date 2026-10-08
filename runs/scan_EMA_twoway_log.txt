@@ -1,0 +1,11 @@
+Starting EMA at Tue Oct  6 18:07:35 BST 2026
+EMA [twoway]: 129 roads to test; checkpoint scan_EMA_twoway.partial.jsonl
+  100/131
+base total 28,181.5 (gap 9.1e-07); at gap 8.2e-08: 28,181.5; solver noise ~6.0e-07
+verify 1 candidates at gap 1e-07
+
+EMA [twoway]: 121 closures solved, 8 essential
+closing makes the city FASTER (verified, > 1e-04): 1 (screened 1, 0 failed verification)
+       32<->60  flow     3476  total time -0.4849%
+biggest damage when closed: 24<->33 +12.35%, 36<->44 +9.82%, 35<->36 +7.79%
+time 4s -> scan_EMA_twoway.json

@@ -1,0 +1,687 @@
+{
+ "toy.drivers": {
+  "value": 6,
+  "text": "6",
+  "source": "data/Braess_trips.tntp"
+ },
+ "toy.narrow_per_car": {
+  "value": 10.0,
+  "text": "10",
+  "source": "Braess_net.tntp link 1->3: t = 10 x (fft*b/cap)"
+ },
+ "toy.wide_base": {
+  "value": 50.0,
+  "text": "50",
+  "source": "Braess_net.tntp link 1->4: t = 50 + x"
+ },
+ "toy.short_base": {
+  "value": 10.0,
+  "text": "10",
+  "source": "Braess_net.tntp link 3->4: t = 10 + x"
+ },
+ "toy.before": {
+  "value": 83.00000001000001,
+  "text": "83",
+  "source": "solver on data/Braess_net.tntp, shortcut closed"
+ },
+ "toy.after": {
+  "value": 92.00000000307692,
+  "text": "92",
+  "source": "solver on data/Braess_net.tntp, shortcut open"
+ },
+ "valid.Anaheim.diff": {
+  "value": 4.792126762976533e-07,
+  "text": "0.00005%",
+  "source": "solver gap 1e-08 vs data/Anaheim_flow.tntp"
+ },
+ "valid.ChicagoSketch.diff": {
+  "value": 3.137074260494304e-06,
+  "text": "0.00031%",
+  "source": "solver gap 1e-06 vs data/ChicagoSketch_flow.tntp"
+ },
+ "valid.ChicagoSketch.first_diff": {
+  "value": 0.0003415753695880743,
+  "text": "0.034%",
+  "source": "same solver WITHOUT tolls/distance in route choice"
+ },
+ "valid.ChicagoSketch.roads": {
+  "value": 2176,
+  "text": "2,176",
+  "source": "ChicagoSketch links between road nodes"
+ },
+ "valid.ChicagoSketch.first_off10": {
+  "value": 730,
+  "text": "730",
+  "source": "road links > 10 veh/h from the published flow, first try"
+ },
+ "valid.ChicagoSketch.fixed_off10": {
+  "value": 0,
+  "text": "0",
+  "source": "road links > 10 veh/h from the published flow, with tolls+distance"
+ },
+ "noise.base_screen_h": {
+  "value": 23665.132392863165,
+  "text": "23,665.132",
+  "source": "Anaheim base, gap 1e-07 (scan screening precision)"
+ },
+ "noise.base_verify_h": {
+  "value": 23665.229790341644,
+  "text": "23,665.230",
+  "source": "Anaheim base, gap 1e-09 (scan verify precision)"
+ },
+ "noise.diff": {
+  "value": 4.115636287588554e-06,
+  "text": "0.0004%",
+  "source": "difference between the two precisions"
+ },
+ "noise.precision_ratio": {
+  "value": 99.99999999999999,
+  "text": "100",
+  "source": "screen gap / verify gap"
+ },
+ "cong.Anaheim.vc": {
+  "value": 0.33435116056205466,
+  "text": "33%",
+  "source": "mean volume/capacity on roads, base equilibrium gap 1e-07"
+ },
+ "cong.Anaheim.delay": {
+  "value": 0.11328617103504125,
+  "text": "11.3%",
+  "source": "congestion delay share of road travel time"
+ },
+ "cong.ChicagoSketch.vc": {
+  "value": 0.5434167413347298,
+  "text": "54%",
+  "source": "mean volume/capacity on roads, base equilibrium gap 1e-06"
+ },
+ "cong.ChicagoSketch.delay": {
+  "value": 0.11038940501026655,
+  "text": "11.0%",
+  "source": "congestion delay share of road travel time"
+ },
+ "city.Anaheim.tested": {
+  "value": 542,
+  "text": "542",
+  "source": "runs/scan_Anaheim_twoway.json"
+ },
+ "city.Anaheim.essential": {
+  "value": 26,
+  "text": "26",
+  "source": "runs/scan_Anaheim_twoway.json"
+ },
+ "city.Anaheim.harmful": {
+  "value": 21,
+  "text": "21",
+  "source": "runs/scan_Anaheim_twoway.json (verified)"
+ },
+ "city.Anaheim.share": {
+  "value": 0.03874538745387454,
+  "text": "3.9%",
+  "source": "harmful / tested"
+ },
+ "city.Anaheim.trips": {
+  "value": 104694.40000000001,
+  "text": "104,694",
+  "source": "data/Anaheim_trips.tntp (intrazonal excluded)"
+ },
+ "city.Anaheim.avg_trip_min": {
+  "value": 13.562461673408498,
+  "text": "13.6",
+  "source": "base total time / trips (min)"
+ },
+ "city.Anaheim.best.road": {
+  "value": "71<->255",
+  "text": "71<->255",
+  "source": "verified best single closure"
+ },
+ "city.Anaheim.best.change": {
+  "value": -0.0021001409904593286,
+  "text": "-0.210%",
+  "source": "verified at gap 1e-9/1e-7"
+ },
+ "city.Anaheim.best.sec_per_trip": {
+  "value": 1.7089849015115282,
+  "text": "1.7",
+  "source": "saved min / trips x 60"
+ },
+ "city.Anaheim.best.veh_hours": {
+  "value": 49.70031913133571,
+  "text": "50",
+  "source": "vehicle-hours saved across all modeled trips (demand period not stated in the data)"
+ },
+ "city.Anaheim.worst.road": {
+  "value": "90<->91",
+  "text": "90<->91",
+  "source": "biggest damage when closed"
+ },
+ "city.Anaheim.worst.change": {
+  "value": 0.21871548389136475,
+  "text": "+21.9%",
+  "source": "screen gap change"
+ },
+ "city.Anaheim.noise": {
+  "value": 4.115636287609051e-06,
+  "text": "0.0004%",
+  "source": "base at screen gap vs verify gap"
+ },
+ "threshold": {
+  "value": 0.0001,
+  "text": "0.01%",
+  "source": "pre-registered threshold (all cities)"
+ },
+ "city.Anaheim.seconds": {
+  "value": 516.7202260494232,
+  "text": "0.1",
+  "source": "scan wall time (hours)"
+ },
+ "city.Barcelona.tested": {
+  "value": 1498,
+  "text": "1,498",
+  "source": "runs/scan_Barcelona_twoway.json"
+ },
+ "city.Barcelona.essential": {
+  "value": 11,
+  "text": "11",
+  "source": "runs/scan_Barcelona_twoway.json"
+ },
+ "city.Barcelona.harmful": {
+  "value": 16,
+  "text": "16",
+  "source": "runs/scan_Barcelona_twoway.json (verified)"
+ },
+ "city.Barcelona.share": {
+  "value": 0.010680907877169559,
+  "text": "1.1%",
+  "source": "harmful / tested"
+ },
+ "city.Barcelona.trips": {
+  "value": 184679.561,
+  "text": "184,680",
+  "source": "data/Barcelona_trips.tntp (intrazonal excluded)"
+ },
+ "city.Barcelona.best.road": {
+  "value": "942<->944",
+  "text": "942<->944",
+  "source": "verified best single closure"
+ },
+ "city.Barcelona.best.change": {
+  "value": -0.0010866613866940425,
+  "text": "-0.109%",
+  "source": "verified at gap 1e-9/1e-7"
+ },
+ "city.Barcelona.worst.road": {
+  "value": "250<->1009",
+  "text": "250<->1009",
+  "source": "biggest damage when closed"
+ },
+ "city.Barcelona.worst.change": {
+  "value": 0.9970761389174193,
+  "text": "+99.7%",
+  "source": "screen gap change"
+ },
+ "city.Barcelona.noise": {
+  "value": 6.366486881932128e-06,
+  "text": "0.0006%",
+  "source": "base at screen gap vs verify gap"
+ },
+ "city.Barcelona.seconds": {
+  "value": 2369.769638776779,
+  "text": "0.7",
+  "source": "scan wall time (hours)"
+ },
+ "city.EMA.tested": {
+  "value": 121,
+  "text": "121",
+  "source": "runs/scan_EMA_twoway.json"
+ },
+ "city.EMA.essential": {
+  "value": 8,
+  "text": "8",
+  "source": "runs/scan_EMA_twoway.json"
+ },
+ "city.EMA.harmful": {
+  "value": 1,
+  "text": "1",
+  "source": "runs/scan_EMA_twoway.json (verified)"
+ },
+ "city.EMA.share": {
+  "value": 0.008264462809917356,
+  "text": "0.8%",
+  "source": "harmful / tested"
+ },
+ "city.EMA.trips": {
+  "value": 65576.375431,
+  "text": "65,576",
+  "source": "data/EMA_trips.tntp (intrazonal excluded)"
+ },
+ "city.EMA.avg_trip_min": {
+  "value": 25.785025888150273,
+  "text": "25.8",
+  "source": "base total time / trips (min)"
+ },
+ "city.EMA.best.road": {
+  "value": "32<->60",
+  "text": "32<->60",
+  "source": "verified best single closure"
+ },
+ "city.EMA.best.change": {
+  "value": -0.004848791899762586,
+  "text": "-0.485%",
+  "source": "verified at gap 1e-9/1e-7"
+ },
+ "city.EMA.best.sec_per_trip": {
+  "value": 7.501573479697898,
+  "text": "7.5",
+  "source": "saved min / trips x 60"
+ },
+ "city.EMA.best.veh_hours": {
+  "value": 136.64611078552844,
+  "text": "137",
+  "source": "vehicle-hours saved across all modeled trips (demand period not stated in the data)"
+ },
+ "city.EMA.worst.road": {
+  "value": "24<->33",
+  "text": "24<->33",
+  "source": "biggest damage when closed"
+ },
+ "city.EMA.worst.change": {
+  "value": 0.12346048887885872,
+  "text": "+12.3%",
+  "source": "screen gap change"
+ },
+ "city.EMA.noise": {
+  "value": 5.981671373555338e-07,
+  "text": "0.0001%",
+  "source": "base at screen gap vs verify gap"
+ },
+ "city.EMA.seconds": {
+  "value": 4.077115774154663,
+  "text": "0.0",
+  "source": "scan wall time (hours)"
+ },
+ "city.ChicagoSketch.tested": {
+  "value": 1076,
+  "text": "1,076",
+  "source": "runs/scan_ChicagoSketch_twoway.json"
+ },
+ "city.ChicagoSketch.essential": {
+  "value": 12,
+  "text": "12",
+  "source": "runs/scan_ChicagoSketch_twoway.json"
+ },
+ "city.ChicagoSketch.harmful": {
+  "value": 1,
+  "text": "1",
+  "source": "runs/scan_ChicagoSketch_twoway.json (verified)"
+ },
+ "city.ChicagoSketch.share": {
+  "value": 0.0009293680297397769,
+  "text": "0.1%",
+  "source": "harmful / tested"
+ },
+ "city.ChicagoSketch.trips": {
+  "value": 1137493.44,
+  "text": "1,137,493",
+  "source": "data/ChicagoSketch_trips.tntp (intrazonal excluded)"
+ },
+ "city.ChicagoSketch.avg_trip_min": {
+  "value": 16.150442717888602,
+  "text": "16.2",
+  "source": "base total time / trips (min)"
+ },
+ "city.ChicagoSketch.best.road": {
+  "value": "543<->903",
+  "text": "543<->903",
+  "source": "verified best single closure"
+ },
+ "city.ChicagoSketch.best.change": {
+  "value": -0.00019852844912327653,
+  "text": "-0.020%",
+  "source": "verified at gap 1e-9/1e-7"
+ },
+ "city.ChicagoSketch.best.sec_per_trip": {
+  "value": 0.19237934072620433,
+  "text": "0.2",
+  "source": "saved min / trips x 60"
+ },
+ "city.ChicagoSketch.best.veh_hours": {
+  "value": 60.786177240995066,
+  "text": "61",
+  "source": "vehicle-hours saved across all modeled trips (demand period not stated in the data)"
+ },
+ "city.ChicagoSketch.worst.road": {
+  "value": "551<->563",
+  "text": "551<->563",
+  "source": "biggest damage when closed"
+ },
+ "city.ChicagoSketch.worst.change": {
+  "value": 0.03802006164412074,
+  "text": "+3.8%",
+  "source": "screen gap change"
+ },
+ "city.ChicagoSketch.noise": {
+  "value": 2.8608260212751985e-06,
+  "text": "0.0003%",
+  "source": "base at screen gap vs verify gap"
+ },
+ "city.ChicagoSketch.seconds": {
+  "value": 10677.979787349701,
+  "text": "3.0",
+  "source": "scan wall time (hours)"
+ },
+ "city.Winnipeg.tested": {
+  "value": 1303,
+  "text": "1,303",
+  "source": "runs/scan_Winnipeg_twoway.json"
+ },
+ "city.Winnipeg.essential": {
+  "value": 12,
+  "text": "12",
+  "source": "runs/scan_Winnipeg_twoway.json"
+ },
+ "city.Winnipeg.harmful": {
+  "value": 0,
+  "text": "0",
+  "source": "runs/scan_Winnipeg_twoway.json (verified)"
+ },
+ "city.Winnipeg.share": {
+  "value": 0.0,
+  "text": "0%",
+  "source": "harmful / tested"
+ },
+ "city.Winnipeg.trips": {
+  "value": 64775.0,
+  "text": "64,775",
+  "source": "data/Winnipeg_trips.tntp (intrazonal excluded)"
+ },
+ "city.Winnipeg.closest.change": {
+  "value": -8.037939895235943e-05,
+  "text": "-0.008%",
+  "source": "closest to threshold, NOT counted"
+ },
+ "city.Winnipeg.worst.road": {
+  "value": "413<->415",
+  "text": "413<->415",
+  "source": "biggest damage when closed"
+ },
+ "city.Winnipeg.worst.change": {
+  "value": 0.10029428581291401,
+  "text": "+10.0%",
+  "source": "screen gap change"
+ },
+ "city.Winnipeg.noise": {
+  "value": 4.0528663398699144e-06,
+  "text": "0.0004%",
+  "source": "base at screen gap vs verify gap"
+ },
+ "city.Winnipeg.seconds": {
+  "value": 6042.099559307098,
+  "text": "1.7",
+  "source": "scan wall time (hours)"
+ },
+ "anaheim.base_veh_hours": {
+  "value": 23665.229790341644,
+  "text": "23,665",
+  "source": "base total travel time / 60, all modeled trips"
+ },
+ "anaheim.after_best_veh_hours": {
+  "value": 23615.52947121031,
+  "text": "23,616",
+  "source": "after closing the best single road"
+ },
+ "anaheim.roads_total": {
+  "value": 568,
+  "text": "568",
+  "source": "whole roads incl. essential"
+ },
+ "barcelona.street_count": {
+  "value": 7,
+  "text": "7",
+  "source": "harmful pieces of one one-way street (log)"
+ },
+ "greedy.roads": {
+  "value": 12,
+  "text": "12",
+  "source": "runs/greedy_Anaheim_twoway.json"
+ },
+ "greedy.total": {
+  "value": -0.006010229391368527,
+  "text": "-0.601%",
+  "source": "final vs start, gap 1e-9"
+ },
+ "greedy.veh_hours": {
+  "value": 142.2334596394018,
+  "text": "142",
+  "source": "vehicle-hours saved across all modeled trips (demand period not stated in the data)"
+ },
+ "greedy.sec_per_trip": {
+  "value": 4.890810346129749,
+  "text": "4.9",
+  "source": "per trip"
+ },
+ "greedy.step1.road": {
+  "value": "71<->255",
+  "text": "71<->255",
+  "source": "accepted road"
+ },
+ "greedy.step1.cum": {
+  "value": -0.0021001409904593286,
+  "text": "-0.210%",
+  "source": "city total vs start"
+ },
+ "greedy.step1.gain": {
+  "value": -0.0021001409904593286,
+  "text": "-0.210%",
+  "source": "gain this step"
+ },
+ "greedy.step2.road": {
+  "value": "200<->335",
+  "text": "200<->335",
+  "source": "accepted road"
+ },
+ "greedy.step2.cum": {
+  "value": -0.002973561841055389,
+  "text": "-0.297%",
+  "source": "city total vs start"
+ },
+ "greedy.step2.gain": {
+  "value": -0.0008752590179368991,
+  "text": "-0.088%",
+  "source": "gain this step"
+ },
+ "greedy.step3.road": {
+  "value": "204<->376",
+  "text": "204<->376",
+  "source": "accepted road"
+ },
+ "greedy.step3.cum": {
+  "value": -0.003665781194420491,
+  "text": "-0.367%",
+  "source": "city total vs start"
+ },
+ "greedy.step3.gain": {
+  "value": -0.0006942838493263193,
+  "text": "-0.069%",
+  "source": "gain this step"
+ },
+ "greedy.step4.road": {
+  "value": "193<->271",
+  "text": "193<->271",
+  "source": "accepted road"
+ },
+ "greedy.step4.cum": {
+  "value": -0.0039222851399121055,
+  "text": "-0.392%",
+  "source": "city total vs start"
+ },
+ "greedy.step4.gain": {
+  "value": -0.0002574476924009656,
+  "text": "-0.026%",
+  "source": "gain this step"
+ },
+ "greedy.step5.road": {
+  "value": "112<->196",
+  "text": "112<->196",
+  "source": "accepted road"
+ },
+ "greedy.step5.cum": {
+  "value": -0.0043411873738496394,
+  "text": "-0.434%",
+  "source": "city total vs start"
+ },
+ "greedy.step5.gain": {
+  "value": -0.000420551757847904,
+  "text": "-0.042%",
+  "source": "gain this step"
+ },
+ "greedy.step6.road": {
+  "value": "59<->103",
+  "text": "59<->103",
+  "source": "accepted road"
+ },
+ "greedy.step6.cum": {
+  "value": -0.004691524080757898,
+  "text": "-0.469%",
+  "source": "city total vs start"
+ },
+ "greedy.step6.gain": {
+  "value": -0.00035186421539745136,
+  "text": "-0.035%",
+  "source": "gain this step"
+ },
+ "greedy.step7.road": {
+  "value": "108<->289",
+  "text": "108<->289",
+  "source": "accepted road"
+ },
+ "greedy.step7.cum": {
+  "value": -0.004901498370392547,
+  "text": "-0.490%",
+  "source": "city total vs start"
+ },
+ "greedy.step7.gain": {
+  "value": -0.0002109640324731716,
+  "text": "-0.021%",
+  "source": "gain this step"
+ },
+ "greedy.step8.road": {
+  "value": "129<->324",
+  "text": "129<->324",
+  "source": "accepted road"
+ },
+ "greedy.step8.cum": {
+  "value": -0.005173289094792297,
+  "text": "-0.517%",
+  "source": "city total vs start"
+ },
+ "greedy.step8.gain": {
+  "value": -0.0002731294680422643,
+  "text": "-0.027%",
+  "source": "gain this step"
+ },
+ "greedy.step9.road": {
+  "value": "367<->368",
+  "text": "367<->368",
+  "source": "accepted road"
+ },
+ "greedy.step9.cum": {
+  "value": -0.005500709432887707,
+  "text": "-0.550%",
+  "source": "city total vs start"
+ },
+ "greedy.step9.gain": {
+  "value": -0.0003291229864520684,
+  "text": "-0.033%",
+  "source": "gain this step"
+ },
+ "greedy.step10.road": {
+  "value": "113<->183",
+  "text": "113<->183",
+  "source": "accepted road"
+ },
+ "greedy.step10.cum": {
+  "value": -0.005710079341496993,
+  "text": "-0.571%",
+  "source": "city total vs start"
+ },
+ "greedy.step10.gain": {
+  "value": -0.0002105279617543947,
+  "text": "-0.021%",
+  "source": "gain this step"
+ },
+ "greedy.step11.road": {
+  "value": "211<->408",
+  "text": "211<->408",
+  "source": "accepted road"
+ },
+ "greedy.step11.cum": {
+  "value": -0.005887430304702453,
+  "text": "-0.589%",
+  "source": "city total vs start"
+ },
+ "greedy.step11.gain": {
+  "value": -0.00017836946701421216,
+  "text": "-0.018%",
+  "source": "gain this step"
+ },
+ "greedy.step12.road": {
+  "value": "168<->409",
+  "text": "168<->409",
+  "source": "accepted road"
+ },
+ "greedy.step12.cum": {
+  "value": -0.006010229391368544,
+  "text": "-0.601%",
+  "source": "city total vs start"
+ },
+ "greedy.step12.gain": {
+  "value": -0.00012352633937998554,
+  "text": "-0.012%",
+  "source": "gain this step"
+ },
+ "greedy.sum_singles": {
+  "value": -0.006708968882045931,
+  "text": "-0.671%",
+  "source": "audit: sum of the 12 roads closed alone, gap 1e-9"
+ },
+ "greedy.112_196.alone": {
+  "value": -1.1727123246405574e-05,
+  "text": "-0.0012%",
+  "source": "audit: closed alone, gap 1e-9"
+ },
+ "greedy.193_271.alone": {
+  "value": -0.0014501981410554425,
+  "text": "-0.145%",
+  "source": "audit: closed alone, gap 1e-9"
+ },
+ "greedy.112_196.ratio": {
+  "value": 35.86145971279064,
+  "text": "36",
+  "source": "step-5 gain / alone value"
+ },
+ "city.Anaheim.one_in": {
+  "value": 25.80952380952381,
+  "text": "26",
+  "source": "tested / harmful"
+ },
+ "greedy.ratio_vs_best": {
+  "value": 2.861821857995358,
+  "text": "2.9",
+  "source": "greedy total / best single closure"
+ },
+ "compute.solves": {
+  "value": 11960,
+  "text": "11,960",
+  "source": "scans (tested + verified + 2 bases) + greedy tables"
+ },
+ "compute.scan_hours": {
+  "value": 5.447401757571432,
+  "text": "5.4",
+  "source": "sum of scan wall times (greedy excluded)"
+ },
+ "cities.with_effect": {
+  "value": 4,
+  "text": "4",
+  "source": "count"
+ }
+}

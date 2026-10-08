@@ -1,0 +1,6 @@
+city                               tested harmful seg     corridors  share       best     worst
+Anaheim                               542          21    20 / 489    3.87%    -0.210%   +21.87%
+Barcelona                            1498          16    16 / 1477   1.07%    -0.109%   +99.71%
+Eastern Massachusetts (highways)      121           1     1 / 116    0.83%    -0.485%   +12.35%
+Chicago (sketch)                     1076           1     1 / 1070   0.09%    -0.020%    +3.80%
+Winnipeg                             1303           0     0 / 1208   0.00%  (-0.0080%)   +10.03%

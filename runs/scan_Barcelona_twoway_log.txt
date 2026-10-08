@@ -1,0 +1,36 @@
+Starting Barcelona at Tue Oct  6 18:07:39 BST 2026
+Barcelona [twoway]: 1509 roads to test; checkpoint scan_Barcelona_twoway.partial.jsonl
+  100/1511
+  200/1511
+  300/1511
+  400/1511
+  500/1511
+  600/1511
+  700/1511
+  800/1511
+  900/1511
+  1000/1511
+  1100/1511
+  1200/1511
+  1300/1511
+  1400/1511
+  1500/1511
+base total 1,365,706.3 (gap 9.3e-07); at gap 9.6e-08: 1,365,715.0; solver noise ~6.4e-06
+verify 16 candidates at gap 1e-07
+
+Barcelona [twoway]: 1498 closures solved, 11 essential
+closing makes the city FASTER (verified, > 1e-04): 16 (screened 16, 0 failed verification)
+     942<->944  flow     1960  total time -0.1087%
+     940<->941  flow     2592  total time -0.0535%
+     327<->331  flow      381  total time -0.0485%
+     821<->830  flow     4326  total time -0.0398%
+     290<->327  flow     1230  total time -0.0382%
+     938<->942  flow     5119  total time -0.0294%
+     563<->564  flow      312  total time -0.0176%
+     565<->566  flow      312  total time -0.0176%
+     563<->716  flow      312  total time -0.0176%
+     566<->567  flow      312  total time -0.0176%
+     564<->565  flow      312  total time -0.0176%
+     568<->569  flow      434  total time -0.0174%
+biggest damage when closed: 250<->1009 +99.71%, 820<->831 +26.32%, 248<->1009 +15.87%
+time 2370s -> scan_Barcelona_twoway.json

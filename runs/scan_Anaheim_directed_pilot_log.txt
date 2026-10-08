@@ -1,0 +1,27 @@
+Anaheim: base TSTT 1,419,907.9 (gap 9.9e-08); at gap 8.9e-10: 1,419,913.8 -> solver noise ~4.1e-06
+796 road segments to test (118 zone connectors skipped)
+  100/796  98s
+  200/796  115s
+  300/796  133s
+  400/796  143s
+  500/796  156s
+  600/796  169s
+  700/796  184s
+verify 31 candidates at gap 1e-09...
+
+Anaheim: 759 closures solved, 37 essential (cut off trips)
+closing makes the city FASTER (verified, > 1e-04): 31
+  road 71->255  flow     2420  total time -0.2100%
+  road 193->271  flow     2664  total time -0.1450%
+  road 335->200  flow      909  total time -0.1059%
+  road 376->204  flow     1674  total time -0.0642%
+  road 201->335  flow      837  total time -0.0555%
+  road 378->377  flow     1590  total time -0.0492%
+  road 199->306  flow      245  total time -0.0446%
+  road 377->376  flow     1915  total time -0.0432%
+  road 103->59  flow      680  total time -0.0427%
+  road 190->85  flow      570  total time -0.0400%
+  road 60->102  flow      985  total time -0.0367%
+  road 375->376  flow      607  total time -0.0363%
+biggest damage when closed: 91->90 +21.87%, 92->91 +21.87%, 90->89 +21.33%
+time 626s; mean iters 661
